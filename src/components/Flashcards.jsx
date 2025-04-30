@@ -40,5 +40,4 @@ const CardsContainer = styled.div`
   width: 100%;
   max-width: 500px;
   box-sizing: border-box;
-  margin: 20px;
 `;

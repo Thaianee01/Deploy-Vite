@@ -15,12 +15,13 @@ export default Header;
 // Styled-components
 const HeaderContainer = styled.header`
   width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 20px 20px 0 20px;
   background-color: #FB6B6B;
 `;
 

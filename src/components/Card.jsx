@@ -2,6 +2,9 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import Feedback from './Feedback';
 
+import setaPlay from '../assets/seta_play.png';
+import setaVirar from '../assets/seta_virar.png';
+
 function Card({ name, question, answer, onCardCompleted }) {
   const [state, setState] = useState(0);
   // 0: Card fechado
@@ -38,7 +41,7 @@ function Card({ name, question, answer, onCardCompleted }) {
         <TitleContainer>
           <CardTitle>{name}</CardTitle>
           <PlayImage
-            src="./src/assets/seta_play.png"
+            src={setaPlay}
             alt="Abrir pergunta"
             onClick={handleCardClick}
           />
@@ -49,7 +52,7 @@ function Card({ name, question, answer, onCardCompleted }) {
         <QuestionContainer>
           <Text>{question}</Text>
           <TurnImage
-            src="./src/assets/seta_virar.png"
+            src={setaVirar}
             alt="Mostrar resposta"
             onClick={handleShowAnswer}
           />
