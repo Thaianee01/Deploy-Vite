@@ -1,12 +1,46 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📚 ZapRecall - Flashcards App
 
-Currently, two official plugins are available:
+ZapRecall é um aplicativo interativo de flashcards construído com **React**. Ele permite aos usuários revisar perguntas e respostas de forma dinâmica, registrando o progresso à medida que concluem os cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐Projeto Online
 
-## Expanding the ESLint configuration
+Acesse em: https://deploy-vite-32jea78oi-thaianee01s-projects.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/Thaianee01/Deploy-Vite.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd Deploy-Vite
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+## Aprendizados
+- Estruturação de projetos React utilizando o Vite para build 
+- Criação de componentes funcionais reutilizáveis com React
+- Uso de props e useState para comunicação e controle de estado
+- Estilização com Styled Components
+- Manipulação de listas e renderização de componentes
+- Organização de imagens e ajustes em caminhos relativos no JSX
+- Configuração de build para produção com npm run build
+- Deploy da aplicação na Vercel
