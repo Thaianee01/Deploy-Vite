@@ -5,7 +5,7 @@ ZapRecall é um aplicativo interativo de flashcards construído com **React**. E
 
 ## 🌐Projeto Online
 
-Acesse em: https://deploy-vite-32jea78oi-thaianee01s-projects.vercel.app/
+Acesse em: https://zap-recall-2-kappa.vercel.app/
 
 
 ## Rodando localmente
